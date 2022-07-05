@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -11,9 +12,18 @@ p{
     color: #6b6666;
     font-weight: 500;
 }
-.top-banner{
+.extra-flex{
     display: flex;
-    margin-bottom: 100px;
+}
+.top-banner{   
+    margin-bottom: 150px;
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
     width: 50%;
